@@ -9,15 +9,23 @@ margin-right: auto;
 margin-left: auto;
 }
 
-.box{
-    width: 200px;
-    height: 200px;
+.box1{
+    width: 100px;
+    height: 100px;
     background-color: aquamarine;
-    transition: all 250ms ease-in 150ms;
-    transition: width 150ms ease-in 50ms;
+
 }
-.box:hover{
-    background-color: rgb(59, 103, 14);
-    width: 400px;
+.box1:hover{
+    transform:scale(2);
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 125, 89);
+
+}
+.box2:hover{
+    transform: translateX(20px);
     
 }
