@@ -1,0 +1,23 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.container{
+width: 1280px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    transition: all 250ms ease-in 150ms;
+    transition: width 150ms ease-in 50ms;
+}
+.box:hover{
+    background-color: rgb(59, 103, 14);
+    width: 400px;
+    
+}
